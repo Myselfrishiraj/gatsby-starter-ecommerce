@@ -8,7 +8,7 @@ const Logo = () => (
     size="mini"
     src={moltin}
     style={{marginRight: '1.5em'}}
-    alt="I love Lamp"
+    alt="I love science"
   />
 )
 
