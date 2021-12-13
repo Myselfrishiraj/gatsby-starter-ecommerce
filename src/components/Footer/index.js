@@ -3,7 +3,7 @@ import {Link} from 'gatsby'
 import {Segment, Container, Grid, List, Header} from 'semantic-ui-react'
 
 const twitterLink = (
-  <a href="https://twitter.com/parmsang" alt="twitter link">
+  <a href="https://twitter.com/" alt="twitter link">
     Twitter
   </a>
 )
@@ -13,7 +13,7 @@ const facebookLink = (
   </a>
 )
 const emailLink = (
-  <a href="mailto:john@doe.com" alt="email link">
+  <a href="myselfrishi7@.com" alt="email link">
     Email
   </a>
 )
@@ -51,10 +51,9 @@ const Footer = () => (
           </Grid.Column>
           <Grid.Column width={7}>
             <Header as="h4">Footer Header</Header>
-            <p>
-              Extra space for a call to action inside the footer that could help
-              re-engage users.
-            </p>
+            <H1>
+              Made with love by @myself_rishi
+            </H1>
             <List horizontal style={{display: 'flex'}}>
               <List.Item
                 icon="twitter"
